@@ -12,24 +12,27 @@ export default function Input() {
         e.preventDefault();
         setError('');
 
+        // Basic email validation
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(email)) {
             setError('Please enter a valid email address');
             return;
         }
 
+        // Basic name validation
         if (fullName.trim().length < 2) {
             setError('Please enter your full name (minimum 2 characters)');
             return;
         }
 
+        // Redirect to home with parameters
         router.push(`/?user-id=${encodeURIComponent(email)}&fullname=${encodeURIComponent(fullName)}`);
     };
 
     return (
         <div className="min-vh-100 d-flex align-items-center" 
              style={{
-                 background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                 background: 'linear-gradient(135deg, #cecece 0%, #ababff 100%)',
              }}>
             <div className="container">
                 <div className="row justify-content-center">
@@ -37,7 +40,7 @@ export default function Input() {
                         <div className="card border-0 shadow-lg rounded-4 overflow-hidden">
                             <div className="card-body p-5">
                                 <div className="text-center mb-4">
-                                    <h1 className="h3 fw-bold text-primary mb-2">Welcome!</h1>
+                                    <h1 className="h3 fw-bold text-primary mb-2">Darisini Talent Mapping</h1>
                                     <p className="text-muted">Start your personality journey</p>
                                 </div>
                                 
