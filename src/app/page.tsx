@@ -7,8 +7,6 @@ import { useRouter, useSearchParams } from "next/navigation";
 
 export default function Home() {
   
-  const BACKEND_API_URL = "http://localhost:4000/api";
-  const BACKEND_GET_RESULT = "get-result";
   const router = useRouter();
   const searchParams = useSearchParams();
   
@@ -20,12 +18,12 @@ export default function Home() {
 
       // Validate parameters
       if (!userId || !fullname) {
-        router.push("/invalid-params");
+        router.push("/input");
         return;
       }
 
       try {
-        const url = `${BACKEND_API_URL}/${BACKEND_GET_RESULT}/${userId}`;
+        const url = `/api/get-result/${userId}`;
         console.log(url);
         const response = await fetch(url);
         const data = await response.json();

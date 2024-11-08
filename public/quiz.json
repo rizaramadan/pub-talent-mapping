@@ -1,0 +1,272 @@
+{
+    "sections": [
+      {
+        "title": "Section 1",
+        "content": "Sebelum mulai berpetualang, bayangkan dirimu sebelum memulai proses hijrah. Kamu menjalani rutinitas sehari-hari seperti biasa, bekerja, sesekali menghabiskan waktu untuk istirahat sejenak, lalu kembali lagi bekerja. Rasanya semua berjalan ‘normal’. Sampai suatu hari, kamu merasa ada yang salah di hidupmu. Kamu tiba-tiba merasa hidupmu gitu-gitu aja. Kamu pikir kamu sudah berada di jalan yang tepat, tapi rasanya seperti orang yang mentok dan tersesat. Orang lain berasumsi hidupmu baik-baik saja, tapi kamu merasa ada yang salah dan kurang. Kamu lelah tapi serasa kamu belum mencapai hal yang benar-benar bermakna.",
+        "verses": [
+          "“Sungguh, Kami telah menciptakan manusia berada dalam susah payah.” (QS Al-Balad: 4)"
+        ],
+        "questions": [
+          {
+            "number": 1,
+            "text": "Kamu bingung dan gelisah karena merasakan kekosongan yang kamu sendiri tidak tahu apa penyebabnya. Tapi setelah sekian hari, kamu tetap saja merasa ada yang kurang di hidupmu. Kamu mencoba.….",
+            "options": {
+              "a": "Membayangkan bagaimana seandainya hidupmu kalau ada perubahan dari rutinitas yang kamu jalani saat ini",
+              "b": "Memperhatikan hal-hal apa dari rutinitas keseharian selama ini yang menjadi sumber masalahnya"
+            }
+          },
+          {
+            "number": 2,
+            "text": "Saat kepalamu dipenuhi pikiran-pikiran yang membuatmu merasa bingung dan tidak nyaman, kamu memilih untuk……",
+            "options": {
+              "a": "Memproses kegundahan ini dalam diri hingga nanti memperoleh titik terang",
+              "b": "Bercerita tentang hal ini ke teman-temanmu guna memperoleh banyak masukan"
+            }
+          },
+          {
+            "number": 3,
+            "text": "Secara kebetulan saat membuka social media, kamu melihat ada potongan kajian Ustadz. Dari situ, kamu menemukan potongan ayat Al-Qur’an/Hadits yang nyambung banget sama apa yang kamu alami. Reaksimu…..",
+            "options": {
+              "a": "Tersentuh. “Kok bisa pas banget ya? Rasanya Allah ngerti banget kegelisahan yang aku rasakan!”",
+              "b": "Tercerahkan. “Kok bisa ya Allah ngasih jawaban yang make sense atas kebingunganku?”"
+            }
+          },
+          {
+            "number": 4,
+            "text": "Karena penasaran, kamu mencoba cari tahu lebih lanjut dengan……",
+            "options": {
+              "a": "Dekati orang yang lebih alim/udah lebih dulu ngaji untuk bertanya lebih lanjut",
+              "b": "Cari tahu sendiri dengan membaca atau mendengarkan dari berbagai sumber"
+            }
+          },
+          {
+            "number": 5,
+            "text": "Dari situ, kamu dapat informasi kalau ada kajian Ustadz dalam waktu dekat ini. Reaksimu….",
+            "options": {
+              "a": "“Wah pengalaman baru nih. Hayuk lah coba datang langsung! Gimana cara ke tempat kajiannya nanti bisa tanya google lah”",
+              "b": "“Oke, aku masukin jadwalnya ke agenda dan atur aktivitas lainnya biar bisa persiapkan rencana buat datang ke kajian”"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Section 2",
+        "content": "Setelah ikut beberapa sesi kajian, kamu mendapatkan ilmu baru tentang makna hidup yang sesungguhnya. Kamu sadar bahwa kekosongan yang kamu rasakan selama ini karena hidupmu hanya mengalir tanpa tujuan yang bermakna. Kamu baru sadar bahwa ada misi hidup yang Allah titipkan ke diri kamu.",
+        "verses": [
+          "“Ingatlah ketika Tuhanmu berfirman kepada para Malaikat: \"Sesungguhnya Aku hendak menjadikan seorang khalifah di muka bumi.” (QS Al-Baqarah: 30)"
+        ],
+        "questions": [
+          {
+            "number": 6,
+            "text": "Kamu mulai ragu untuk melangkah. Yang menjadi pertimbangan utamamu dalam memutuskan apakah akan menyambut atau mengabaikan panggilan itu adalah…….  ",
+            "options": {
+              "a": "Apa yang akan terjadi nanti? Apa dampak positif/negatif yang akan didapatkan dan dihasilkan di masa depan?",
+              "b": "Bagaimana orang-orang yang sudah lebih dulu melangkah di jalan ini? Lebih banyak yang berhasil/gagal?"
+            }
+          },
+          {
+            "number": 7,
+            "text": "Untuk mewujudkan misi ini, kamu juga mau tidak mau harus mengubah kebiasaan-kebiasaan negatif yang selama ini kamu lakukan dan lingkungan negatif yang ada di sekitarmu. Hal yang menjadi fokus pertamamu adalah…..  ",
+            "options": {
+              "a": "Langkah kongrit yang perlu dilakukan. “Ternyata sulit dan banyak banget ya kebiasaan dan cara hidup yang perlu aku ubah. Bisa nggak ya aku ngejalaninnya? Harus mulai dari mana dulu ini?”",
+              "b": "Gejolak emosi yang akan dirasakan. “Kalau aku tiba-tiba berubah, nanti tanggapan orang lain gimana ya? Kan gak enak kalau nanti malah dapat komentar buruk atau malah berjarak dari teman/keluarga.”"
+            }
+          },
+          {
+            "number": 8,
+            "text": "Untuk menjawab kebingungan ini, kamu coba mencari orang yang sepertinya bisa membantu. Akhirnya kamu menemukan komunitas yang sesuai dan sosok yang dapat dijadikan mentor di komunitas tersebut. Hal yang kamu lakukan……  ",
+            "options": {
+              "a": "Langsung menghubunginya untuk memperkenalkan diri dan berkomunikasi secara intensif dengannya untuk menceritakan semua masalahmu",
+              "b": "Secara bertahap mencari momen yang tepat untuk mengenal sosok itu dan berharap ia akan banyak memberikan masukan untuk mengatasi masalahmu"
+            }
+          },
+          {
+            "number": 9,
+            "text": "Mentormu menyarankan untuk mengikuti serangkaian program pelatihan berbasis nilai-nilai Islam. Tujuannya agar kamu bisa mengasah potensimu sekaligus memperoleh sudut pandang yang mengubah pandanganmu tentang hidup. Kamu memilih progam dengan jadwal yang……  ",
+            "options": {
+              "a": "Sistematis! Jadwalnya harus rinci dan teratur dengan kegiatan yang pasti setiap harinya",
+              "b": "Fleksibel! Jadwalnya bisa diubah-ubah biar bisa coba berbagai kemungkinan yang berbeda"
+            }
+          },
+          {
+            "number": 10,
+            "text": "Dari guru-guru terbaik, program pelatihan ini membuatmu bisa mempelajari wawasan, akhlak, dan kebijaksanaan berpikir yang kamu butuhkan untuk jadi pribadi yang lebih baik. Pelajaran yang lebih kamu sukai adalah yang menitikberatkan pada…..  ",
+            "options": {
+              "a": "Konsep dan teori dasar yang bisa kamu gunakan untuk merancang dan mengembangkan hal baru",
+              "b": "Praktik dan contoh nyata dengan langkah-langkah yang bisa langsung kamu terapkan dan lakukan"
+            }
+          },
+          {
+            "number": 11,
+            "text": "Di program pelatihan tersebut, kamu tidak sendiri. Ada puluhan orang yang juga sedang belajar sepertimu. Di waktu luang setelah penyampaian materi selesai, kamu memilih menghabiskan waktu dengan…..  ",
+            "options": {
+              "a": "Berkontemplasi untuk merefleksikan hasil belajar dan latihan yang telah kamu jalani, lalu menuliskannya ke dalam catatanmu",
+              "b": "Berkenalan, mengobrol, dan bergaul dengan sebanyak mungkin teman seperjuangan supaya bisa lebih akrab dengan mereka"
+            }
+          },
+          {
+            "number": 12,
+            "text": "Setelah belajar banyak hal, kamu sempat ragu untuk meneruskan karena ternyata banyak batasan yang harus dijaga. Memulai perubahan ini seakan membuat hidupmu tidak sebebas dulu. Yang menjadi pertimbangan utamamu untuk memilih langkah selanjutnya……  ",
+            "options": {
+              "a": "Kisah dan pengalaman jatuh-bangun orang-orang di sekitar saat menapaki jalan ini",
+              "b": "Data dan informasi terkait pro-kontra dari setiap langkah yang diambil di jalan ini"
+            }
+          },
+          {
+            "number": 13,
+            "text": "Di akhir program pelatihan, setelah sempat ragu dan maju-mundur sekian lama, akhirnya kamu membulatkan tekad untuk mulai berubah. Untuk merealisasikan perubahan tersebut, hal pertama yang kamu lakukan adalah…..  ",
+            "options": {
+              "a": "Menuliskan target-target terdekat yang bisa segera kamu terapkan ke rutinitas harianmu",
+              "b": "Memproyeksikan hasil akhir yang bisa kamu wujudkan dengan perubahan yang kamu lakukan"
+            }
+          },
+          {
+            "number": 14,
+            "text": "Sebelum kembali ke kehidupan sehari-hari, mentormu menceritakan apa yang akan kamu alami ke depan. Ia memberimu sebuah misi yang harus diselesaikan untuk menerapkan apa yang sudah dipelajari. Langkah yang kamu lakukan berikutnya adalah..…  ",
+            "options": {
+              "a": "Menyusun dan mengatur rencana dengan detail dan hati-hati sebelum memulai misi tersebut",
+              "b": "Langsung mulai dan menikmati tiap prosesnya. Detailnya bisa diurus sambil jalan"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Section 3",
+        "content": "Sepulangnya dari program pelatihan, kamu mulai melihat kehidupan dari perspektif yang berbeda. Perlahan kamu mulai menyadari satu per satu contoh kejadian yang disampaikan di pelatihan. Rutinitas dan pola perilaku orang-orang di sekitarmu tetap sama, namun cara pandang baru ini membuatmu menemukan banyak hal yang belum pernah kamu sadari sebelumnya. Kini hidupmu tidak lagi sama dengan sebelumnya. Kamu mulai paham maksud misi yang dititipkan oleh mentormu dan merasa terpanggil untuk menyelesaikannya. Agar lebih siap menghadapi tantangan yang berat ke depan, kamu dihadapkan pada serangkaian ujian. Meski berat, kamu memberanikan diri untuk tetap melangkah karena yakin kalau kamu berhasil melalui ujian ini, ada ridha Allah yang akan kamu dapatkan.",
+        "verses": [
+          "“Apakah manusia itu mengira bahwa mereka dibiarkan (saja) mengatakan: \"Kami telah beriman\", sedang mereka tidak diuji? Dan sesungguhnya kami telah menguji orang-orang yang sebelum mereka, maka sesungguhnya Allah mengetahui orang-orang yang benar dan sesungguhnya Dia mengetahui orang-orang yang dusta.” (QS Al-Ankabut: 2-3)"
+        ],
+        "questions": [
+          {
+            "number": 15,
+            "text": "Untuk mengamalkan apa yang telah dipelajari di program pelatihan, kamu harus berpindah dari kebiasaan lama ke kebiasaan baru, lingkungan lama ke lingkungan baru. Dengan banyaknya rintangan, hal yang paling berpotensi membuatmu gagal adalah……  ",
+            "options": {
+              "a": "Terlalu berhati-hati dan lama dalam membuat rencana persiapan sehingga kehabisan waktu untuk eksekusi",
+              "b": "Terlalu gegabah dan impulsif dalam bertindak sehingga tidak mempertimbangkan hal-hal yang penting"
+            }
+          },
+          {
+            "number": 16,
+            "text": "Kamu mengamati fenomena orang-orang di sekitarmu. Sebagian dari mereka berpeluang menarikmu ke tujuan yang baik, namun sebagian lainnya dapat menyeretmu hingga melenceng dari tujuan. Kekurangan yang berpotensi mengalihkanmu dari tujuan adalah……  ",
+            "options": {
+              "a": "Terlalu banyak bergaul dan kurang nyaman ketika harus sendiri sehingga sulit melepaskan diri dari lingkungan pertemanan lama yang berdampak buruk",
+              "b": "Terlalu penyendiri dan kurang bisa membaur dengan lingkungan pertemanan baru yang baik sehingga sulit membangun kebiasaan baik"
+            }
+          },
+          {
+            "number": 17,
+            "text": "Beberapa kali, kamu juga mendapatkan pertentangan dari orang lain. Perubahan yang kamu lakukan ini membuatmu dianggap aneh, gak asik, bahkan dijauhi orang lain. Kamu mulai merasakan sulitnya melangkah di jalan ini. Kamu mencoba meyakinkan diri dengan…..  ",
+            "options": {
+              "a": "Melihat bukti nyata dari pertolongan yang Allah berikan kepada orang-orang yang berada di jalan ini",
+              "b": "Membayangkan berbagai dampak positif yang Allah janjikan jika kamu tetap bertahan di jalan ini"
+            }
+          },
+          {
+            "number": 18,
+            "text": "Ujian demi ujian datang untuk menguji kesungguhanmu. Agar bisa totalitas melangkah di jalan ini, kamu harus mengorbankan hal yang berharga, merelakan kesempatan yang kamu impikan, dan mengecewakan orang-orang terdekat. Yang paling memberatkanmu adalah……  ",
+            "options": {
+              "a": "Memutar otak. “Kesempatan ini kan nggak datang 2 kali. Apa iya aku harus merelakan ini? Apa aja kira-kira konsekuensinya kalau aku korbankan hal ini?”",
+              "b": "Menata hati. “Gimana ya perasaan keluarga kalau aku korbankan hal ini? Mereka belum tentu setuju. Apa iya aku harus mengecewakan mereka?”"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Section 4",
+        "content": "Persimpangan-persimpangan yang mengharuskan memilih keputusan-keputusan sulit ini terus terjadi di sepanjang proses hijrahmu. Sampai di satu titik, kamu mulai mempertanyakan \"Bener ga sih jalan yg aku pilih? Worth it kah hal ini diperjuangkan sebegitunya?\" Tapi ternyata ketika kamu memilih langkah yang tepat, Allah berikan pertolongan demi pertolongan dari arah yang tidak pernah kamu sangka, yang membuatmu semakin yakin bahwa inilah jalan terbaik yang harus kamu lalui. Kamu ingin membagikan kebaikan ini ke orang lain yang lebih luas. Inilah misi hidupmu selanjutnya, untuk menyebarkan ajaran Islam sebagai rahmat bagi alam semesta dan solusi bagi semua permasalahan.",
+        "verses": [
+          "“Dan tiadalah Kami mengutus kamu, melainkan untuk (menjadi) rahmat bagi semesta alam.” (QS. Al Anbiya’: 107)"
+        ],
+        "questions": [
+          {
+            "number": 19,
+            "text": "Untuk menyelesaikan misi kali ini, kamu harus menghadapi perjalanan yang tidak kalah berat dengan sebelumnya. Kamu memilih menjalaninya dengan…..  ",
+            "options": {
+              "a": "Mengikuti jalur dan panduan yang sudah ditentukan supaya misi bisa berjalan dengan teratur",
+              "b": "Memiliki kebebasan untuk mengombinasikan opsi-opsi yang ada sesuai perubahan situasi"
+            }
+          },
+          {
+            "number": 20,
+            "text": "Meskipun perjalanan ke depan masih paniang, kamu mulai melihat dirimu menjadi jauh lebih baik daripada sebelumnya. Tapi perubahanmu ini menimbulkan tanda tanya bagi orang-orang di sekitarmu. Kamu berupaya menyampaikannya melalui…..  ",
+            "options": {
+              "a": "Penjelasan yang meyakinkan disertai alasan yang logis dan masuk akal",
+              "b": "Pendekatan yang menyentuh dan memperhatikan kondisi personal mereka"
+            }
+          },
+          {
+            "number": 21,
+            "text": "Kamu lalu mengamati lingkungan di sekitarmu, dan melihat banyak orang yang mentok dan tersesat seperti kamu dulu. Kamu ingin membantu mereka dengan……  ",
+            "options": {
+              "a": "Secara langsung membuka pembicaraan dan bercerita tentang pengalamanmu kepada orang-orang yang kamu temui",
+              "b": "Secara tidak langsung menuangkan pengalamanmu ke dalam tulisan/karya yang nantinya bisa dibagikan kepada orang lain"
+            }
+          },
+          {
+            "number": 22,
+            "text": "Mengamati fakta di masyarakat juga membuatmu menyadari ada banyak kemunkaran dalam berbagai bidang kehidupan. Ini menjadi kegelisahan yang ingin kamu laporkan kepada mentormu. Kamu menyampaikan dengan…..  ",
+            "options": {
+              "a": "Menjabarkan fakta-fakta konkrit yang terjadi di lapangan",
+              "b": "Menjelaskan hasil interpretasimu terhadap fenomena-fenomena yang ada"
+            }
+          },
+          {
+            "number": 23,
+            "text": "Tidak jarang, kamu juga harus berhadapan dengan fenomena-fenomena yang tidak ideal di lingkungan sekitarmu. Kekurangan yang paling kamu rasakan terkait hal ini adalah…..  ",
+            "options": {
+              "a": "Terlalu lembut dan emosional sehingga kurang objektif dalam menyikapi isu-isu yang tidak sesuai dengan ajaran Islam di sekitarmu",
+              "b": "Terlalu tegas dan keras sehingga kurang peka dalam melihat situasi di sekitar untuk bisa menyebarkan kasih sayang ke lingkungan"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Section 5",
+        "content": "Setelah mencoba terjun ke dalam misi ini, kamu sadar bahwa kamu masih punya banyak kekurangan. Terkadang, ini membuatmu merasa tidak pantas untuk mengemban tugas dakwah. Kamu merasa segan karena ilmu yang dimiliki saat ini belum memadai. Tapi kamu juga sadar bahwa ini adalah tanggung jawab besar yang harus diambil agar kamu dapat lebih berperan sebagai penolong agama Allah.\n\n“Hai orang-orang yang beriman, jadilah kamu penolong (agama) Allah sebagaimana Isa ibnu Maryam telah berkata kepada pengikut-pengikutnya yang setia: \"Siapakah yang akan menjadi penolong-penolongku (untuk menegakkan agama) Allah?\" Pengikut-pengikut yang setia itu berkata: \"Kamilah penolong-penolong agama Allah.\" (QS As-Saff: 14)\n\nPanggilan ini membuatmu terdorong untuk berkolaborasi bersama orang-orang yang memiliki misi perjuangan besar yang sama. Meski berat, kamu ingin memberi kontribusi yang bermakna dan bermanfaat signifikan dengan potensi yang kamu miliki.",
+        "verses": [],
+        "questions": [
+          {
+            "number": 24,
+            "text": "Kamu sadar tidak mudah untuk konsisten menjalankan misi ini. Kamu khawatir akan kesulitan menyeimbangkan waktu antara peran di dakwah dengan peran lainnya. Kamu memilih mengambil tanggung jawab dakwah yang…..  ",
+            "options": {
+              "a": "Jadwalnya bisa disesuaikan sewaktu-waktu",
+              "b": "Memiliki jadwal yang rutin dan pasti"
+            }
+          },
+          {
+            "number": 25,
+            "text": "Memberikan solusi yang bermanfaat bagi umat juga adalah tanggung jawab besar yang harus diemban bersama. Peran yang kamu sukai dalam misi dakwah ini adalah…..  ",
+            "options": {
+              "a": "Mengamati situasi sosial yang ada untuk memberikan rekomendasi solusi",
+              "b": "Menginisiasi kolaborasi dengan orang lain untuk mendiskusikan solusi"
+            }
+          },
+          {
+            "number": 26,
+            "text": "Karena banyaknya target populasi misi dakwah ini di luar sana, kamu akan tergabung di dalam tim besar yang dibagi ke dalam dua kelompok. Kamu memilih tergabung di kelompok yang bertugas untuk..…  ",
+            "options": {
+              "a": "Terjun langsung ke lapangan untuk melihat, mendengar, dan merasakan realita yang ada",
+              "b": "Memetakan pola untuk memahami situasi yang ada sebagai dasar untuk merancang strategi"
+            }
+          },
+          {
+            "number": 27,
+            "text": "Setelah terjun di lapangan dan terlibat dalam misi dakwah, banyak tantangan yang kamu hadapi. Pendekatan yang lebih kamu sukai…..  ",
+            "options": {
+              "a": "Menerapkan langkah di lapangan sesuai dengan rencana yang telah dibuat",
+              "b": "Melakukan penyesuaian langkah di lapangan berdasarkan tuntutan situasi"
+            }
+          },
+          {
+            "number": 28,
+            "text": "Dengan banyaknya masalah yang ada di tengah-tengah umat, kamu lebih memilih berperan untuk…..  ",
+            "options": {
+              "a": "Menenangkan keresahan dan memunculkan harapan bagi umat",
+              "b": "Memberikan solusi yang logis untuk menyelesaikan masalah umat"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
