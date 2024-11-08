@@ -1,20 +1,52 @@
-"use client"; // "use client" make sure this component runs as a client component
+"use client";
 
 import { useEffect } from "react";
-import { useRouter } from "next/navigation";
-import { STORAGE_KEY } from "./lib/VerifyOtpResponse";
+import { useRouter, useSearchParams } from "next/navigation";
+
+//http://localhost:4000/?user-id=donwafiqo@gmail.com&fullname=abc
 
 export default function Home() {
+  
+  const BACKEND_API_URL = "http://localhost:4000/api";
+  const BACKEND_GET_RESULT = "get-result";
   const router = useRouter();
-
+  const searchParams = useSearchParams();
+  
   useEffect(() => {
-    const response = localStorage.getItem(STORAGE_KEY);
-    if (!response) {
-      router.push("/auth/login");
-    } else {
-      router.push("/result");
-    }
-  }, [router]);
+    const fetchAndRedirect = async () => {
+      // Get URL parameters
+      const userId = searchParams.get('user-id');
+      const fullname = searchParams.get('fullname');
 
-  return null; // Returning null since we're navigating and don't want to render anything
+      // Validate parameters
+      if (!userId || !fullname) {
+        router.push("/invalid-params");
+        return;
+      }
+
+      try {
+        const url = `${BACKEND_API_URL}/${BACKEND_GET_RESULT}/${userId}`;
+        console.log(url);
+        const response = await fetch(url);
+        const data = await response.json();
+        console.log(data);
+
+        if (!data || Object.keys(data).length === 0 || !data.userId) {
+          // No result exists, redirect to quiz page with parameters
+          router.push(`/quiz?user-id=${userId}&fullname=${fullname}`);
+        } else {
+          // Result exists, redirect to result page
+          localStorage.setItem('resultData', JSON.stringify(data));
+          router.push(`/result`);
+        }
+      } catch (error) {
+        console.error('Error fetching result:', error);
+        //router.push("/sorry");
+      }
+    };
+
+    fetchAndRedirect();
+  }, [router, searchParams]);
+
+  return null;
 }
