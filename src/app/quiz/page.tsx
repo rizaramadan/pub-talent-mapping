@@ -70,6 +70,10 @@ export default function Quiz() {
             .then(data => setQuiz(data));
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     const handleAnswerChange = (questionNumber: number, answer: string) => {
         setAnswers(prev => ({
             ...prev,
