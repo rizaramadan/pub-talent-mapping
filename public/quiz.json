@@ -223,7 +223,9 @@
       {
         "title": "Section 5",
         "content": "Setelah mencoba terjun ke dalam misi ini, kamu sadar bahwa kamu masih punya banyak kekurangan. Terkadang, ini membuatmu merasa tidak pantas untuk mengemban tugas dakwah. Kamu merasa segan karena ilmu yang dimiliki saat ini belum memadai. Tapi kamu juga sadar bahwa ini adalah tanggung jawab besar yang harus diambil agar kamu dapat lebih berperan sebagai penolong agama Allah.\n\n“Hai orang-orang yang beriman, jadilah kamu penolong (agama) Allah sebagaimana Isa ibnu Maryam telah berkata kepada pengikut-pengikutnya yang setia: \"Siapakah yang akan menjadi penolong-penolongku (untuk menegakkan agama) Allah?\" Pengikut-pengikut yang setia itu berkata: \"Kamilah penolong-penolong agama Allah.\" (QS As-Saff: 14)\n\nPanggilan ini membuatmu terdorong untuk berkolaborasi bersama orang-orang yang memiliki misi perjuangan besar yang sama. Meski berat, kamu ingin memberi kontribusi yang bermakna dan bermanfaat signifikan dengan potensi yang kamu miliki.",
-        "verses": [],
+        "verses": [
+          "“Siapakah yang akan menjadi penolong-penolongku (untuk menegakkan agama) Allah?“ Pengikut-pengikut yang setia itu berkata: “Kamilah penolong-penolong agama Allah.“ (QS As-Saff: 14)"
+        ],
         "questions": [
           {
             "number": 24,
