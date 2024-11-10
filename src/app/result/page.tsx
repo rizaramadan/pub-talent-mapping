@@ -13,9 +13,6 @@ export default function ResultPage() {
         }
     }, []);
 
-    // Calculate percentages
-    const getPercentage = (value: number) => (value / 5) * 100;
-
     return (
         <div className="page">
             <main>

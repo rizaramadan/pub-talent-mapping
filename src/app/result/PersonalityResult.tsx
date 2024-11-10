@@ -45,7 +45,7 @@ export const PersonalityResult: React.FC<PersonalityResultProps> = ({ resultData
         <div className="card">
             <img src={`/images/${finalResult}.png`} alt={finalResult} className="card-img-top"  /> 
             <div className="card-body">
-                <h5 className="card-title">{fullName}'s Personality Result</h5>
+                <h5 className="card-title">{fullName}&apos;s Personality Result</h5>
                 <p className="card-text text-center" style={{ textTransform: 'uppercase' }}>{personalityRoleName}</p>
             </div>
             <ul className="list-group list-group-flush">
