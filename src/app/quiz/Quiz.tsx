@@ -96,7 +96,7 @@ interface Question {
                     />
                 </div>
                 <div className="text-end text-muted small">
-                    Section {currentSection + 1} of {quiz.sections.length}
+                    Part {currentSection + 1} of {quiz.sections.length}
                 </div>
             </div>
 
@@ -104,7 +104,14 @@ interface Question {
             <div className="card shadow-lg border-0 rounded-3 mb-4">
                 <div className="card-body p-4">
                     <h2 className="card-title text-primary mb-4">{quiz.sections[currentSection].title}</h2>
-                    <p className="lead mb-4">{quiz.sections[currentSection].content}</p>
+                    <p className="lead mb-4">
+                        {quiz.sections[currentSection].content.split('\n').map((line, index) => (
+                            <span key={index}>
+                                {line}
+                                {index < quiz.sections[currentSection].content.split('\n').length - 1 && <br />}
+                            </span>
+                        ))}
+                    </p>
                     
                     {/* Verses */}
                     <div className="bg-light p-3 rounded-3 mb-4">
