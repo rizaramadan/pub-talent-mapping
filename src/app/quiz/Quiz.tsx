@@ -168,7 +168,7 @@ interface Question {
                         className="btn btn-primary px-4"
                         onClick={() => {
                             setCurrentSection(currentSection + 1);
-                            window.scrollTo(0, 0);
+                            document.body.scrollIntoView({ behavior: 'smooth' });
                         }}
                         disabled={!areAllQuestionsAnswered()}
                     >
