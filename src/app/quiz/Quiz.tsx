@@ -101,7 +101,7 @@ interface Question {
             </div>
 
             {/* Current Section Content */}
-            <div className="card shadow-lg border-0 rounded-3 mb-4">
+            <div className="card shadow-lg border-0 rounded-3 mb-4" id="section-content">
                 <div className="card-body p-4">
                     <h2 className="card-title text-primary mb-4">{quiz.sections[currentSection].title}</h2>
                     <p className="lead mb-4">
@@ -168,7 +168,10 @@ interface Question {
                         className="btn btn-primary px-4"
                         onClick={() => {
                             setCurrentSection(currentSection + 1);
-                            document.body.scrollIntoView({ behavior: 'smooth' });
+                            const myElement = document.getElementById('section-content');
+                            if (myElement) {
+                                myElement.scrollIntoView({ behavior: 'smooth' });
+                            }
                         }}
                         disabled={!areAllQuestionsAnswered()}
                     >
