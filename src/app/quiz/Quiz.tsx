@@ -167,11 +167,12 @@ interface Question {
                     <button 
                         className="btn btn-primary px-4"
                         onClick={() => {
-                            setCurrentSection(currentSection + 1);
                             const myElement = document.getElementById('section-content');
                             if (myElement) {
                                 myElement.scrollIntoView({ behavior: 'smooth' });
                             }
+                            setCurrentSection(currentSection + 1);
+                            
                         }}
                         disabled={!areAllQuestionsAnswered()}
                     >
