@@ -1,12 +1,7 @@
 {
     "type": "ISFJ",
+    "title": "Nurturer",
     "role_description": [
-      "✅ Kamu tipikal pribadi yg peka dan peduli pd kebutuhan pihak lain - pelayanan personal.",
-      "✅ Kelemahanmu adalah sulit beradaptasi dg perubahan, terutama jika terjadi secara tiba2 atau melibatkan tmp maupun org2 yg tidak dikenal. Perubahan di saat2 terakhir bahkan dapat membuatmu merasa stress/tertekan.",
-      "✅ Kamu bersungguh2 dalam menyikapi amanah yg diberikan dan berupaya agar hasilnya melampaui harapan pihak lain.",
-      "✅ Ketelitian dan orientasi thd sosial membuatmu berbakat dalam mengingat hal2 ttg org lain."
-    ],
-    "extended_role_description": [
       "✅ Kamu tipikal pribadi yang peka dan peduli pada kebutuhan pihak lain. Kamu juga senang membantu dan memberikan pelayanan personal.",
       "✅ Struktur dan rutinitas adalah hal yang penting bagimu. Kamu tipe orang yang senang mencari stabilitas, terorganisir, terencana, dan suka memastikan bahwa segala sesuatunya berjalan dengan lancar.",
       "✅ Kamu bersungguh-sungguh dalam menyikapi amanah yang diberikan dan berupaya agar hasilnya sesuai, bahkan melampaui harapan pihak lain.",
@@ -14,7 +9,7 @@
     ],
     "example_roles": [
       "Kegiatan mengajar secara personal",
-      "terjun ke masyarakat memberi bantuan konkrit (misalnya: terlibat sebagai panitia bansos untuk menyalurkan bantuan langsung dan memberikan pelayanan kepada umat)"
+      "terjun ke masyarakat memberi bantuan konkret (misalnya: terlibat sebagai panitia bansos untuk menyalurkan bantuan langsung dan memberikan pelayanan kepada umat)"
     ]
   }
   

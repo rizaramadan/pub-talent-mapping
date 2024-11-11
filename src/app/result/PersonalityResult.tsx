@@ -232,14 +232,7 @@ export const PersonalityResult: React.FC<PersonalityResultProps> = ({ resultData
                             <li key={index} className="mb-2">{desc}</li>
                         ))}
                     </ul>
-                    
-                    <h5 className="card-title mt-4">Extended Description</h5>
-                    <ul className="list-unstyled">
-                        {personalityInfo.extended_role_description.map((desc, index) => (
-                            <li key={index} className="mb-2">{desc}</li>
-                        ))}
-                    </ul>
-                    
+                   
                     <h5 className="card-title mt-4">Recommended Roles</h5>
                     <ul>
                         {personalityInfo.example_roles.map((role, index) => (

@@ -1,11 +1,7 @@
 {
     "type": "INTP",
+    "title": "Logician",
     "role_description": [
-      "✅ Kamu tipikal individu yg imajinatif dan dipenuhi rasa ingin tahu, shg kerap menemukan ketertarikan mendalami cara kerja pikiran sendiri.",
-      "✅ Kamu senang jika dpt terlibat di diskusi yg memberikan kebebasan utk berpendapat, banyak ruang utk menyampaikan ide/gagasan yg progresif (tidak konvensional atau bahkan dianggap tidak masuk akal.",
-      "✅ Pada dasarnya kamu enggan utk terlibat di interaksi sosial yg intense, tetapi cukup menyadari bahwa kolaborasi dg pihak lain merupakan hal yg penting."
-    ],
-    "extended_role_description": [
       "✅ Imajinatif dan dipenuhi rasa ingin tahu, kamu ingin memahami berbagai hal di alam semesta. Pikiranmu kerap dipenuhi dengan ide, pertanyaan, dan wawasan.",
       "✅ Memecahkan masalah yang kompleks, mencari ide baru, dan mengevaluasi berbagai informasi secara kritis untuk mengambil keputusan adalah tugas yang menarik bagimu.",
       "✅ Kamu tipe orang yang mandiri, lebih fokus saat bekerja sendiri, dan lebih suka diberikan kebebasan untuk menerapkan pendekatan yang fleksibel dalam bertindak.",
@@ -13,7 +9,7 @@
     ],
     "example_roles": [
       "Menuangkan ide/gagasan baru untuk memperluas manfaat dakwah",
-      "Konseptor event atau membuat konten yg utk membangun awareness umat"
+      "Konseptor event atau membuat konten yang untuk membangun awareness umat"
     ]
   }
   
