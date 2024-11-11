@@ -1,5 +1,5 @@
 'use client';
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useRouter } from 'next/navigation';
 
 
@@ -60,6 +60,7 @@ interface Question {
 
   const Quiz: React.FC<QuizProps> = ({ userId, fullName }) => {
     const router = useRouter();
+    const sectionRef = useRef<HTMLDivElement>(null);
 
     const [quiz, setQuiz] = useState<QuizData | null>(null);
     const [currentSection, setCurrentSection] = useState(0);
@@ -101,7 +102,7 @@ interface Question {
             </div>
 
             {/* Current Section Content */}
-            <div className="card shadow-lg border-0 rounded-3 mb-4" id="section-content">
+            <div className="card shadow-lg border-0 rounded-3 mb-4" ref={sectionRef}>
                 <div className="card-body p-4">
                     <h2 className="card-title text-primary mb-4">{quiz.sections[currentSection].title}</h2>
                     <p className="lead mb-4">
@@ -167,12 +168,8 @@ interface Question {
                     <button 
                         className="btn btn-primary px-4"
                         onClick={() => {
-                            const myElement = document.getElementById('section-content');
-                            if (myElement) {
-                                myElement.scrollIntoView({ behavior: 'smooth' });
-                            }
+                            sectionRef.current?.scrollIntoView({ behavior: 'smooth' });
                             setCurrentSection(currentSection + 1);
-                            
                         }}
                         disabled={!areAllQuestionsAnswered()}
                     >
