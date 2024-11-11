@@ -1,7 +1,7 @@
 // components/PersonalityResult.tsx
 'use client'
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 export interface ResultData {
   userId: string;
@@ -23,7 +23,31 @@ interface PersonalityResultProps {
   resultData: ResultData;
 }
 
+// Add new interface for personality info
+interface PersonalityInfo {
+    type: string;
+    role_description: string[];
+    extended_role_description: string[];
+    example_roles: string[];
+}
+
 export const PersonalityResult: React.FC<PersonalityResultProps> = ({ resultData }) => {
+  const [personalityInfo, setPersonalityInfo] = useState<PersonalityInfo | null>(null);
+
+  useEffect(() => {
+    const fetchPersonalityInfo = async () => {
+      try {
+        const response = await fetch(`/info/${resultData.finalResult.toLowerCase()}.json`);
+        const data = await response.json();
+        setPersonalityInfo(data);
+      } catch (error) {
+        console.error('Error fetching personality info:', error);
+      }
+    };
+
+    fetchPersonalityInfo();
+  }, [resultData.finalResult]);
+
   const {
     fullName,
     outgoing,
@@ -54,7 +78,7 @@ export const PersonalityResult: React.FC<PersonalityResultProps> = ({ resultData
                         <p>Energy Expression Style</p>
                     </div>
                     <div className='row'>
-                        <div className='col-4'>Outgoing</div>
+                        <div className='col-4 text-end'>Outgoing</div>
                         <div className='col-4'>
                             <div className="progress">
                                 <div 
@@ -91,7 +115,7 @@ export const PersonalityResult: React.FC<PersonalityResultProps> = ({ resultData
                         <p>Information Gathering Style</p>
                     </div>
                     <div className='row'>
-                        <div className='col-4'>Conceptual</div>
+                        <div className='col-4 text-end'>Conceptual</div>
                         <div className='col-4'>
                             <div className="progress">
                                 <div 
@@ -128,7 +152,7 @@ export const PersonalityResult: React.FC<PersonalityResultProps> = ({ resultData
                         <p>Decision Making Style</p>
                     </div>
                     <div className='row'>
-                        <div className='col-4'>Empathetic</div>
+                        <div className='col-4 text-end'>Empathetic</div>
                         <div className='col-4'>
                             <div className="progress">
                                 <div 
@@ -165,7 +189,7 @@ export const PersonalityResult: React.FC<PersonalityResultProps> = ({ resultData
                         <p>Task Management Style</p>
                     </div>
                     <div className='row'>
-                        <div className='col-4'>Organized</div>
+                        <div className='col-4 text-end'>Organized</div>
                         <div className='col-4'>
                             <div className="progress">
                                 <div 
@@ -197,7 +221,33 @@ export const PersonalityResult: React.FC<PersonalityResultProps> = ({ resultData
                         <div className='col-4'>Flexible</div>
                     </div>
                 </li>
-            </ul>            
+            </ul>
+            
+            {/* Add personality info after the last list-group-item */}
+            {personalityInfo && (
+                <div className="card-body">
+                    <h5 className="card-title">Role Description</h5>
+                    <ul className="list-unstyled">
+                        {personalityInfo.role_description.map((desc, index) => (
+                            <li key={index} className="mb-2">{desc}</li>
+                        ))}
+                    </ul>
+                    
+                    <h5 className="card-title mt-4">Extended Description</h5>
+                    <ul className="list-unstyled">
+                        {personalityInfo.extended_role_description.map((desc, index) => (
+                            <li key={index} className="mb-2">{desc}</li>
+                        ))}
+                    </ul>
+                    
+                    <h5 className="card-title mt-4">Recommended Roles</h5>
+                    <ul>
+                        {personalityInfo.example_roles.map((role, index) => (
+                            <li key={index}>{role}</li>
+                        ))}
+                    </ul>
+                </div>
+            )}
         </div>
     </div>
   );
