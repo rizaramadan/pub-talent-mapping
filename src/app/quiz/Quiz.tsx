@@ -67,9 +67,24 @@ const Quiz: React.FC<QuizProps> = ({userId, fullName}) => {
   const [answers, setAnswers] = useState<Record<number, string>>({});
 
   useEffect(() => {
-    fetch('/quiz.json')
-      .then(res => res.json())
-      .then(data => setQuiz(data));
+    fetch('https://tlmpsrsn.sgp1.digitaloceanspaces.com/quiz.json', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        // Add any additional headers if required
+      },
+      // mode: 'cors' // Uncomment if you want to explicitly set the mode
+    })
+      .then(res => {
+        if (!res.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return res.json();
+      })
+      .then(data => setQuiz(data))
+      .catch(error => {
+        console.error('There was a problem with the fetch operation:', error);
+      });
   }, []);
 
   const handleAnswerChange = (questionNumber: number, answer: string) => {
