@@ -67,7 +67,7 @@ const Quiz: React.FC<QuizProps> = ({userId, fullName}) => {
   const [answers, setAnswers] = useState<Record<number, string>>({});
 
   useEffect(() => {
-    fetch('https://tlmpsrsn.sgp1.digitaloceanspaces.com/quiz.json', {
+    fetch('https://tlmpsrsn.sgp1.cdn.digitaloceanspaces.com/quiz-v1.json', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
