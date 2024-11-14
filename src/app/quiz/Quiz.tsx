@@ -64,7 +64,19 @@ const Quiz: React.FC<QuizProps> = ({userId, fullName}) => {
 
   const [quiz, setQuiz] = useState<QuizData | null>(null);
   const [currentSection, setCurrentSection] = useState(0);
-  const [answers, setAnswers] = useState<Record<number, string>>({});
+  const [answers, setAnswers] = useState<Record<number, string>>(() => {
+    if (typeof window !== 'undefined') {
+      const savedAnswers = localStorage.getItem(`quiz-answers-${userId}`);
+      return savedAnswers ? JSON.parse(savedAnswers) : {};
+    }
+    return {};
+  });
+
+  useEffect(() => {
+    if (userId) {
+      localStorage.setItem(`quiz-answers-${userId}`, JSON.stringify(answers));
+    }
+  }, [answers, userId]);
 
   useEffect(() => {
     fetch('https://tlmpsrsn.sgp1.cdn.digitaloceanspaces.com/quiz-v1.json', {
@@ -240,6 +252,8 @@ const Quiz: React.FC<QuizProps> = ({userId, fullName}) => {
                 })
                   .then(response => {
                     if (response.ok) {
+                      // Clear saved answers after successful submission
+                      localStorage.removeItem(`quiz-answers-${userId}`);
                       // Redirect to home page with query parameters
                       router.push(`/?user-id=${userId}&fullname=${fullName}`);
                     } else {
