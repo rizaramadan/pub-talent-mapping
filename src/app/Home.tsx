@@ -20,6 +20,21 @@ export default function Home() {
       }
 
       try {
+        // First, check the submission count
+        const countUrl = `/api/count-submission/${userId}`;
+        const countResponse = await fetch(countUrl);
+        const countData = await countResponse.json();
+
+        console.log(countData);
+        // Early return if count is not 1
+        if (countData.count !== "1" && countData.count !== 1) {
+          router.push(`/quiz?user-id=${userId}&fullname=${fullname}`);
+          return; // Early return
+        }
+
+        
+
+        // If count is 1, proceed to get the result
         const url = `/api/get-result/${userId}`;
         console.log(url);
         const response = await fetch(url);
