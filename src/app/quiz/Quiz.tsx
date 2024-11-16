@@ -75,11 +75,24 @@ const Quiz: React.FC<QuizProps> = ({userId, fullName}) => {
   useEffect(() => {
     if (userId) {
       localStorage.setItem(`quiz-answers-${userId}`, JSON.stringify(answers));
+      
+      // Fetch count submission
+      const countUrl = `/api/count-submission/${userId}`;
+      fetch(countUrl)
+        .then(res => res.json())
+        .then(data => {
+          if (data.count !== "0" && data.count !== 0) {
+            router.push(`/?user-id=${userId}&fullname=${fullName}`); // Redirect to home if count is 1
+          }
+        })
+        .catch(error => {
+          console.error('Error fetching count submission:', error);
+        });
     }
-  }, [answers, userId]);
+  }, [answers, userId, fullName, router]);
 
   useEffect(() => {
-    fetch('https://tlmpsrsn.sgp1.cdn.digitaloceanspaces.com/quiz-v1.json', {
+    fetch('https://tlmpsrsn.sgp1.cdn.digitaloceanspaces.com/quiz-v4.json', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

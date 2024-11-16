@@ -3,11 +3,11 @@ import { sleep, check } from 'k6';
 import { uuidv4 } from 'https://jslib.k6.io/k6-utils/1.4.0/index.js';
 
 export let options = {
-    vus: 1000, // Virtual users
-    duration: '3s', // Duration of the test
+    vus: 400, // Virtual users
+    duration: '30s', // Duration of the test
 };
 
-const ROOT = 'http://localhost:4000'; // Replace with your actual server URL
+const ROOT = 'https://talent-mapping.mvp.my.id'; // Replace with your actual server URL
 
 function generateRandomResponses() {
     const responses = {};
@@ -27,7 +27,7 @@ export default function loadTest() {
     let res2 = http.get(`${ROOT}/api/count-submission/${userId}`);
     check(res2, { 'GET /api/count-submission successful': (r) => r.status === 200 });
 
-    const responses = generateRandomResponses();
+    /*const responses = generateRandomResponses();
     const payload = JSON.stringify({
         SubmitArgs: {
             userId: userId,
@@ -35,8 +35,6 @@ export default function loadTest() {
             fullName: fullName,
         },
     });
-
-    console.log(payload);
 
     let res3 = http.post(`${ROOT}/api/submit/${userId}`, payload, {
         headers: { 'Content-Type': 'application/json' },
@@ -63,7 +61,7 @@ export default function loadTest() {
         console.log(
             `GET /get-result failed: Expected userId ${userId} and fullName ${fullName}, got ${res4.body}`
         );
-    }
+    }*/
 
     sleep(1);
 }

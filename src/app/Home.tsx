@@ -27,7 +27,7 @@ export default function Home() {
 
         console.log(countData);
         // Early return if count is not 1
-        if (countData.count !== "1" && countData.count !== 1) {
+        if (countData.count === "0" || countData.count === 0) {
           router.push(`/quiz?user-id=${userId}&fullname=${fullname}`);
           return; // Early return
         }

@@ -233,14 +233,14 @@ export const PersonalityResult: React.FC<PersonalityResultProps> = ({ resultData
             {/* Add personality info after the last list-group-item */}
             {personalityInfo && (
                 <div className="card-body">
-                    <h5 className="card-title">Role Description</h5>
+                    <h5 className="card-title">Gambaran kepribadianmu</h5>
                     <ul className="list-unstyled">
                         {personalityInfo.role_description.map((desc, index) => (
                             <li key={index} className="mb-2">{desc}</li>
                         ))}
                     </ul>
                    
-                    <h5 className="card-title mt-4">Recommended Roles</h5>
+                    <h5 className="card-title mt-4">Beberapa peran dalam dakwaah yang sesuai dengan tipe kepribadianmu</h5>
                     <ul>
                         {personalityInfo.example_roles.map((role, index) => (
                             <li key={index}>{role}</li>
