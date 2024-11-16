@@ -68,12 +68,22 @@ export const PersonalityResult: React.FC<PersonalityResultProps> = ({ resultData
     <div >
         <div className="card">
             <div className="d-flex justify-content-center"> 
-                <img 
-                    src={`/images/${finalResult}.png`} 
-                    alt={finalResult} 
-                    className="card-img-top"  
-                    style={{ maxWidth: '300px', width: '100%' }}
-                /> 
+                <div className="mx-2">
+                    <img 
+                        src={`https://tlmpsrsn.sgp1.cdn.digitaloceanspaces.com/images/${finalResult}-1.png`} 
+                        alt={finalResult} 
+                        className="card-img-top"  
+                        style={{ maxWidth: '300px', width: '100%' }}
+                    /> 
+                </div>
+                <div className="mx-2">
+                    <img 
+                        src={`https://tlmpsrsn.sgp1.cdn.digitaloceanspaces.com/images/${finalResult}-2.png`} 
+                        alt={finalResult} 
+                        className="card-img-top"  
+                        style={{ maxWidth: '300px', width: '100%' }}
+                    /> 
+                </div>
             </div>
             <div className="card-body text-center">
                 <h5 className="card-title">{fullName}&apos;s Personality Result</h5>
